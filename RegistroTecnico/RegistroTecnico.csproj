@@ -6,4 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Components\Pages\NewFolder\" />
+    <Folder Include="Consultas\Debug\net9.0\" />
+    <Folder Include="DAL\Debug\net9.0\" />
+    <Folder Include="Models\Debug\net9.0\" />
+    <Folder Include="Registros\Debug\net9.0\" />
+    <Folder Include="Services\Debug\net9.0\" />
+  </ItemGroup>
+
 </Project>
