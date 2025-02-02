@@ -7,3 +7,5 @@ public class AppDbContext : DbContext
 
     public DbSet<Tecnico> Tecnicos { get; set; }
 }
+// Data/ApplicationDbContext.cs
+public DbSet<Ticket> Tickets { get; set; }
