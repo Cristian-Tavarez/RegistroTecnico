@@ -1,0 +1,21 @@
+﻿@page "/crearticket"
+
+<h3>Crear Ticket</h3>
+
+<EditForm Model="@ticket" OnValidSubmit="@HandleValidSubmit">
+    <div class="form-group">
+        <label for="Asunto">Asunto:</label>
+        <InputText id="Asunto" @bind-Value="ticket.Asunto" class="form-control" />
+    </div>
+    @* ... otros campos del formulario ... *@
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</EditForm>
+
+@code {
+    private Ticket ticket = new Ticket();
+
+    private async Task HandleValidSubmit()
+    {
+        // Lógica para guardar el ticket en la base de datos
+    }
+}
